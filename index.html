@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio — Adry Mohammad Azman</title>
+  <meta name="description" content="Portofolio Adry Mohammad Azman — projects, about and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta name="theme-color" content="#0b0c0d">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portofolio — Adry Mohammad Azman">
+  <meta property="og:description" content="Designing simple, useful interfaces. Projects, about and contact.">
+  <meta property="og:image" content="assets/img/web.png">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.example/">
+
+  <!-- Preload hero image (LCP) -->
+  <link rel="preload" as="image" href="assets/img/img1.png">
+</head>
+<body>
+
+<!-- Floating Mobile Menu -->
+<div class="fab-container">
+  <button class="fab-main" id="fab-main-btn">
+    <i class="bi bi-list"></i>
+  </button>
+
+  <div class="fab-menu">
+    <a href="#home" class="fab-item"><i class="bi bi-house"></i></a>
+    <a href="#about" class="fab-item"><i class="bi bi-person"></i></a>
+    <a href="#project" class="fab-item"><i class="bi bi-grid"></i></a>
+    <a href="#contact" class="fab-item"><i class="bi bi-envelope"></i></a>
+  </div>
+</div>
+
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div id="app">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1>Adry Mohammad Azman</h1>
+          <p class="tag">UI / Graphic · Simple web apps</p>
+        </div>
+
+        <nav aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <p class="hero-label">Hey! I'm Adry</p>
+            <h2>Crafting <span class="highlight">clean and meaningful</span> digital experiences.</h2>
+            <p>UI/UX enthusiast & front-end developer turning ideas into intuitive, visually clear digital products. I focus on accessibility, thoughtful interactions, and efficient design processes.</p>
+            <div class="hero-cta">
+              <a class="button" href="#project">View Projects</a>
+              <a class="button ghost" href="#contact">Get in touch</a>
+            </div>
+          </div>
+          <div class="hero-image" aria-hidden="true">
+            <div class="hero-frame">
+              <img
+                src="assets/img/img1.png"
+                alt="Sample project visual"
+                loading="lazy"
+                onerror="this.onerror=null;this.src='assets/img/placeholder-dark.png';"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="card about-card">
+        <div class="container">
+          <h2>About Me</h2>
+          <p>I create interfaces that balance clarity, usability, and aesthetics. I value accessibility, thoughtful interaction, and efficient design processes. I'm always excited to learn new tools and collaborate on meaningful projects.</p>
+
+          <!-- Skills: added -->
+          <div class="skills" aria-labelledby="skills-heading">
+            <h3 id="skills-heading">👨‍💻 Technical Skills</h3>
+            <div class="skills-grid" role="list">
+              <div class="skills-column" role="listitem">
+                <ul>
+                  <li><strong>Web:</strong> HTML · CSS · JavaScript</li>
+                  <li><strong>Backend:</strong> PHP · CodeIgniter 4</li>
+                  <li><strong>Frameworks:</strong> Tailwind · Bootstrap</li>
+                  <li><strong>Design:</strong> Figma · Photoshop · CorelDraw</li>
+                  <li><strong>VCS:</strong> Git · GitHub</li>
+                </ul>
+              </div>
+
+              <div class="skills-column" role="listitem">
+                <h4>🎨 Soft Skills</h4>
+                <ul>
+                  <li>Communication</li>
+                  <li>Problem solving</li>
+                  <li>Time management</li>
+                  <li>Collaboration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- /Skills -->
+
+        </div>
+      </section>
+
+      <section id="project" class="card projects-card">
+        <div class="container">
+          <div class="section-header">
+            <p class="section-label">MY WORK</p>
+            <h2>Selected Projects</h2>
+          </div>
+          <div class="projects-grid">
+            <article class="project">
+              <div class="project-image">
+                <img
+                  src="assets/img/web.png"
+                  alt="Dashboard Interface Concept"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='assets/img/placeholder-dark.png';"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Dashboard Interface Concept</h3>
+                <p>A clean and structured dashboard UI designed for productivity and ease of navigation.</p>
+                <p class="meta">Figma · HTML · CSS</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-image">
+                <img
+                  src="assets/img/web2.png"
+                  alt="Responsive Landing Page"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='assets/img/placeholder-dark.png';"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Responsive Landing Page</h3>
+                <p>A modern landing page built with responsive layout and smooth interactive elements.</p>
+                <p class="meta">Figma · React · Tailwind</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-image">
+                <img
+                  src="assets/img/web3.png"
+                  alt="Creative Portfolio Layout"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='assets/img/placeholder-dark.png';"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Creative Portfolio Layout</h3>
+                <p>A clean and stylish portfolio page concept showcasing personal and project information.</p>
+                <p class="meta">Figma · React · Tailwind</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-image">
+                <img
+                  src="assets/img/web4.png"
+                  alt="E-Commerce Platform UI"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='assets/img/placeholder-dark.png';"
+                />
+              </div>
+              <div class="project-content">
+                <h3>E-Commerce Platform UI</h3>
+                <p>An elegant and user-friendly e-commerce interface with intuitive product browsing and checkout flow.</p>
+                <p class="meta">Figma · UI/UX Design</p>
+              </div>
+            </article>
+
+            <article class="project">
+              <div class="project-image">
+                <img
+                  src="assets/img/web5.png"
+                  alt="Mobile App Design System"
+                  loading="lazy"
+                  onerror="this.onerror=null;this.src='assets/img/placeholder-dark.png';"
+                />
+              </div>
+              <div class="project-content">
+                <h3>Mobile App Design System</h3>
+                <p>A comprehensive design system and component library for consistent mobile app experiences.</p>
+                <p class="meta">Figma · Design System</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="card contact-card">
+        <div class="container">
+          <h2>Let's Collaborate</h2>
+          <p>Got a project in mind? I'd love to hear from you. Drop me a message and let's create something amazing together.</p>
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="button">Send Message</button>
+              <button type="reset" class="button ghost">Reset</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <p>&copy; 2024 Adry Mohammad Azman — Designed & built with passion.</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
